@@ -1,1 +1,42 @@
+/* start body */
+body {
+    background-color: rgb(207, 216, 223);
+    font-family; helvetica, arial, san serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin:0;
+    padding: 0;
+}
+/* end body */
+/* start debug */
+.bg-blue {
+    background-color: rgb(236, 142, 142);
+}
+.bg-red {
+    background-color: rgb(230, 173, 176);
+}
+/* end debug */
 
+/* start container */
+.container {
+    margin: 10px auto; 
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto; 
+    overflow: auto;
+    width: 100%;
+}
+/* end container */
+/* start logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
+/* start menu primer */
+.menu-primer ul {
+    background-color:#333333;
+    border-radius: 4px;
+}
+/* end menu primer */
