@@ -9,26 +9,34 @@
     <title>Travellen</title>
     <meta type="description" content="travellen">
     <!--end title>-->
+     <!--start css-->
+     <link rel="stylesheet" href="style/style.css">
+     <!--end css-->
+
 </head>
 <body>
 
     <!--start logo-->
-    <a href="index.html" title="logo-travellen">
-            <img src="images/logo-travellen.jpg" alt="logo travellen" width="200">
-    </a>
-    <!--end logo-->
-    
-    <!--menu primer-->
-    <ul>
-        <li><a href="index.html" title="Beranda">Beranda</a></li>
-        <li><a href="destinasi.html" title="Destinasi">Destinasi</a></li>
-        <li><a href="transportasi.html" title="Transportasi">Transportasi</a></li>
-        <li><a href="hotel.html" title="Hotel">Hotel</a></li>
-        <li><a href="pembayaran.html" title="Pembayaran">Pembayaran</a></li>
-        <li><a href="pertanyaan.html" title="Pertanyaan">Pertanyaan</a></li>
-        <li><a href="kontak.html" title="Kontak kami">Kontact Kami</a></li>
-    </ul>
-    <!--end menu primer-->
+    <div class="container logo">
+            <a href="index.html" title="logo-travellen">
+                <img src="images/logo-travellen.jpg" alt="logo travellen" width="200">
+            </a>
+        </div>
+        <!--end logo-->
+        
+        <!--menu primer-->
+        <div class="container menu-primer">
+            <ul>
+                <li><a href="index.html" title="Beranda">Beranda</a></li>
+                <li><a href="destinasi.html" title="Destinasi">Destinasi</a></li>
+                <li><a href="transportasi.html" title="Transportasi">Transportasi</a></li>
+                <li><a href="hotel.html" title="Hotel">Hotel</a></li>
+                <li><a href="pembayaran.html" title="Pembayaran">Pembayaran</a></li>
+                <li><a href="pertanyaan.html" title="Pertanyaan">Pertanyaan</a></li>
+            <li><a href="kontak.html" title="Kontak kami" class="active">Kontact Kami</a></li>
+            </ul>
+        </div>
+        <!--end menu primer-->
 
     <!--start jumbotron-->
     <h1>Kontak Kami</h1>
@@ -45,7 +53,7 @@
 
     <!--start form-->
     <h2>Form Travellen</h2>
-    <p>anda bisa pesan dan konfirmasi pembayaran melalui form di bawah ini:</p>
+    <p>Anda bisa pesan dan konfirmasi pembayaran melalui form di bawah ini:</p>
 
     <form action="">
         <label for="nama">Nama Lengkap</label>
