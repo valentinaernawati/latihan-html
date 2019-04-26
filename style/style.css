@@ -1,7 +1,10 @@
+/* start font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* end font */
 /* start body */
 body {
     background-color: rgb(207, 216, 223);
-    font-family; helvetica, arial, san serif;
+    font-family; roboto, helvetica, arial, san serif;
     font-size: 16px;
     line-height: 1.5em;
     margin:0;
@@ -34,9 +37,189 @@ body {
     text-align: center;
 }
 /* end logo */
+
+/* start enchor / hyperlink */
+a:link,
+a:visited {
+    columns: #0366d6;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: none;
+
+}
+/* end enchor / hyperlink */
+
 /* start menu primer */
 .menu-primer ul {
     background-color:#333333;
     border-radius: 4px;
+    box-shadow: 
+    0 3px 5px -1px rgba(0,0,0,.2), 
+    0 6px 10px 0 rgba(0,0,0,.14),
+    0 1px 18px 0 rgba(0,0,0,.12);
+}
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: white;
+    font-size: 13px;
+    display: inline-block
+    letter-spacing: 1px;
+    padding:10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: white;
+    color:#333333;
+    text-decoration: none;
 }
 /* end menu primer */
+
+/* start heading  */
+h1, h2, h3, h4, ,h5, h6, {
+    font-wight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* end heading */
+
+/* start jumbotron  */
+.jumbotron {
+    background-color: #f6f8fa;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbotron */
+
+/* start main */
+.main-home-one {
+    float: left;
+    width: 49.5%
+}
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+
+/* end main */
+/* start box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 1px 1px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: white;
+    border-radius: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* end box */
+
+/* start testimonial */
+.testimonial {
+    border-left: 4px solid #dfe2e5;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* end testimonial */
+/* start menu skunder */
+.menu-skunder {
+    background-color: #f6f8fa;
+    border-button: 1px solid #eaecef;
+    border-top:1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-skunder h4 {
+    font-size: 14px;
+    margin:0 auto;
+    text-transform: uppercase;
+}
+.menu-skunder ul {
+    padding: 0;
+}
+.menu-skunder li {
+    list-style: disc;
+}
+.menu-skunder li a, 
+.menu-skunder li p {
+    font-size: 15px;
+}
+
+.menu-skunder-one,
+.menu-skunder-two,
+.menu-skunder-three {
+    float: left;
+}
+.menu-skunder-one {
+    width: 40%;
+}
+.menu-skunder-two,
+.menu-skunder-three {
+    width: 30%;
+}
+.menu-skunder li img {
+    vertical-align: middle;
+}
+/* end menu skunder */
+
+/* start copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* start copyright */
