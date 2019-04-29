@@ -71,7 +71,7 @@ a:active {
 .menu-primer a {
     color: white;
     font-size: 13px;
-    display: inline-block
+    display: inline-block;
     letter-spacing: 1px;
     padding:10px 20px;
     text-transform: uppercase;
@@ -91,8 +91,8 @@ a:active {
 /* end menu primer */
 
 /* start heading  */
-h1, h2, h3, h4, ,h5, h6, {
-    font-wight: 400;
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
     letter-spacing: 1px;
 }
 h1 {
@@ -144,10 +144,24 @@ h6 {
 
 .main-home-one .box-isi,
 .main-home-two .box-isi {
-    height: 140px;
+    height: 200px;
 }
 
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 69.5%;
+    height: 200x;
+}
 /* end main */
+
+/* start sidebar */
+    .sidebar-two {
+        float: right;
+        overflow: auto;
+        width: 29.5%;
+    }
+/* end sidebar */
 /* start box */
 .box-heading {
     background-color: #f6f8fa;
@@ -177,6 +191,61 @@ h6 {
     padding-left: 20px;
 }
 /* end testimonial */
+
+/* start transportasi */
+.transportasi-table {
+    border: 1px solid #274569;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%
+
+}
+/* besok tanya */
+.transportasi-table th {
+    background-color: red;
+
+}
+.transportasi-table td {
+    text-align: center;
+}
+/* end transportasi */
+
+/* start form */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888888;
+    font-weight: 300;
+}
+input[type="submit"],
+button  {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+    border: 1px solid rgba(27, 31,35, 0.2);
+    border-radius: 4px;
+    color: black !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+/* end form */
+
+/* start contact form */
+.contact-form-div {
+    margin: 20px 0;
+}
+/* end contact form */
 /* start menu skunder */
 .menu-skunder {
     background-color: #f6f8fa;
