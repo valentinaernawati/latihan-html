@@ -510,7 +510,6 @@ button  {
     text-align: center;
     padding-top: 1%;
 
-
 }
 
 /* snip destinasi */
@@ -621,3 +620,10 @@ button  {
     transition-delay: 0.2s;
   }
 /* end snip destinasi */
+/* form hotel */
+.ortu {
+  background-color: #a0a7ad;
+  padding-right: 10px;
+}
+
+/* form hotel */
