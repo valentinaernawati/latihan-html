@@ -11,7 +11,7 @@
 /* start body */
 body {
     background-color: #B0D7FF;
-    font-family; roboto, helvetica, arial, san serif;
+    font-family: roboto, helvetica, arial, san serif;
     font-size: 16px;
     line-height: 1.5em;
     margin:0;
@@ -48,13 +48,13 @@ body {
 /* start enchor / hyperlink */
 a:link,
 a:visited {
-    columns: #b9baf3;
+    color: #0d0d0e;
     text-decoration: none;
 }
 
 a:hover,
 a:active {
-    color: #B0D7FF;
+    color: rgb(15, 48, 235);
     text-decoration: none;
 
 }
@@ -92,7 +92,7 @@ a:active {
 
 .menu-primer a:hover {
     background-color: #B0D7FF;
-    color: black;
+    color: rgb(6, 54, 116);
     text-decoration: none;
 }
 
@@ -267,8 +267,8 @@ button  {
     position: relative;
     display: inline-block;
     margin: 20px;
-    max-width: 190px;
-    width: 100%;
+    max-width: 15%;
+    min-width: 15%;
     color: #bbb;
     font-size: 16px;
     box-shadow: none !important;
@@ -407,12 +407,12 @@ button  {
 .menu-skunder-one {
     width: 40%;
 }
-.menu-skunder-two,
-.menu-skunder-three {
+.menu-skunder-two {
     width: 30%;
 }
 .menu-skunder li img {
     vertical-align: middle;
+    width: 15%;
 }
 /* end menu skunder */
 
@@ -502,7 +502,7 @@ button  {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
   }
-.snip1471:hover figcaption h3,
+.snip1471:hover figcaption h3
 .snip1471.hover figcaption h3 {
     -webkit-transform: translateY(-150%);
     transform: translateY(-150%);
